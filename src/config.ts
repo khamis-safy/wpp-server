@@ -9,7 +9,7 @@ export default {
   maxListeners: 15,
   customUserDataDir: './userDataDir/',
   webhook: {
-    url: 'https://httpbin.org/post',
+    url: 'https://dev-commswift-api.azurewebsites.net/api/Settings/WppWebHook',
     autoDownload: true,
     uploadS3: false,
     readMessage: false,
